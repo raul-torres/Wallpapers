@@ -1,0 +1,45 @@
+.mainDiv {
+    display: flex;
+    padding-top: 23px;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #131c27;
+    width: 82%;
+    height: 5%;
+    top: 0;
+}
+
+span {
+    font-size: 1.3rem;
+}
+
+span a {
+    font-style: none;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.5s;
+    font-family: 'Merriweather', serif;
+}
+
+span a:hover {
+    font-size: 1.4rem;
+}
+
+.links {
+    padding-top: 2px;
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+}
+
+.navSvg {
+    width: 1.4rem;
+    height: 1.4rem;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.navSvg:hover {
+    width: 1.6rem;
+    height: 1.6rem;
+}
